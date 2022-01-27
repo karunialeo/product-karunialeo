@@ -31,7 +31,7 @@ function Footer() {
                 </Col>
                 <Col className='text-center text-lg-start' sm={12} lg={3}>
                     <h5 className='fw-bold mb-4'>knowing you're always on the best energy deal.</h5>
-                    <input className='col-12 outline-gray shadow-sm mb-2 rounded-2' type="text" name="form" id="form" />
+                    <input className='col-12 outline-gray shadow-sm mb-2 rounded-2 p-2' type="text" name="form" id="form" />
                     <Button className='bg-var-green text-light btn-outline-success my-2'>Sign Up Now</Button>
                 </Col>
             </Row>
