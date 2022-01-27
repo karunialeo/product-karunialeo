@@ -15,7 +15,7 @@ function PriceTable() {
                                 <p>Brief price description</p>
                             </Card.Text>
                             <Row className='d-flex mb-4 align-items-center'>
-                                <Col className='large-font fw-bold text-var-green col-auto offset-2'>0</Col>
+                                <Col className='large-font fw-bold text-var-green col-auto offset-3'>0</Col>
                                 <Col className='text-start'>
                                     <p className='text-var-green fw-bold mb-1'>$</p>
                                     <p className='text-var-gray mb-1'>Per / month</p>
@@ -36,7 +36,7 @@ function PriceTable() {
                                 <p>Brief price description</p>
                             </Card.Text>
                             <Row className='d-flex mb-4 align-items-center'>
-                                <Col className='large-font fw-bold col-auto offset-2'>5</Col>
+                                <Col className='large-font fw-bold col-auto offset-3'>5</Col>
                                 <Col className='text-start'>
                                     <p className='fw-bold mb-1'>$</p>
                                     <p className='text-var-gray mb-1'>Per / month</p>
@@ -57,7 +57,7 @@ function PriceTable() {
                                 <p>Brief price description</p>
                             </Card.Text>
                             <Row className='d-flex mb-4 align-items-center'>
-                                <Col className='large-font fw-bold text-var-green col-auto offset-2'>10</Col>
+                                <Col className='large-font fw-bold text-var-green col-auto offset-3'>10</Col>
                                 <Col className='text-start'>
                                     <p className='text-var-green fw-bold mb-1'>$</p>
                                     <p className='text-var-gray mb-1'>Per / month</p>
