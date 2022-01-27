@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+:root {
+  --green: #02897a;
+  --lightgreen: #edfffc;
+  --black: #22343d;
+  --blue: #4d8dff;
+  --purple: #740a76;
+  --red: #f03e3d;
+  --gray: #afafaf;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-var-green {
+  background-color: var(--green) !important;
+}
+
+.bg-var-lightgreen {
+  background-color: var(--lightgreen) !important;
+}
+
+.bg-var-black {
+  background-color: var(--black) !important;
+}
+
+.text-var-green {
+  color: var(--green) !important;
+}
+
+.text-var-green:hover {
+  color: var(--green) !important;
+}
+
+.text-var-black {
+  color: var(--black);
+}
+
+.text-var-gray {
+  color: var(--gray);
+}
+
+.rounded-25 {
+  border-radius: 25px;
+}
+
+.outline-gray {
+  border: 1px solid rgb(223, 216, 216) !important;
+}
+
+.content1-fluid {
+  background: url(/public/img/bg/bg-gradient-down.png);
+  background-position-y: 100%;
+}
+
+.content3-fluid {
+  background: url(/public/img/bg/bg-gradient-up.png);
+  background-position-y: 0;
+}
+
+.content1-fluid,
+.content3-fluid {
+  min-height: 370px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+@media screen and (max-width: 768px) {
+  .content1-fluid,
+  .content3-fluid {
+    min-height: 900px;
+  }
+
+  .dis-none {
+    display: none !important;
+  }
+}
+
+.pill-text {
+  display: inline-block;
+  border: 1px solid rgb(252, 248, 248);
+  border-radius: 25px;
+  box-shadow: 0 5px 20px rgb(224, 223, 223);
+  padding: 12px 22px;
+  margin: 0 1rem;
+}
