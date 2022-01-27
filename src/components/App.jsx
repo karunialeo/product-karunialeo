@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Header />
       <Carousel />
       <Benefit />
