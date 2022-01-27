@@ -1,12 +1,12 @@
 import React from 'react'
 import {Container, Button, Row, Col} from 'react-bootstrap'
 
-function Content1() {
+function Benefit() {
     return (
-        <div className="content1">
+        <div className="benefit">
             <div className="my-5">
                 <h2 className='fw-bolder text-center lh-base py-5'>Product was Built Specifically<br />for You</h2>
-                <Container fluid className='content1-fluid'>
+                <Container fluid className='benefit'>
                     <Container>
                         <Row className='d-lg-flex justify-content-between pb-5'>
                             <Col sm className='text-center text-lg-start'>
@@ -40,4 +40,4 @@ function Content1() {
     )
 }
 
-export default Content1
+export default Benefit

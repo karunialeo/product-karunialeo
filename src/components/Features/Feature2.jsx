@@ -1,14 +1,14 @@
 import React from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap';
 
-function Part2() {
+function Feature2() {
     return (
         <Container>
             <Row className="d-lg-flex my-5">
                 <Col xs={12} lg={6} className="part1-img">
-                    <Image className='img-fluid' src="/img/c2part2.png" alt="management" />
+                    <Image className='img-fluid' src="/img/feature-2.png" alt="management" />
                 </Col>
-                <Col className="carousel-text d-flex flex-column justify-content-center">
+                <Col className="d-flex flex-column justify-content-center">
                     <h5 className='fw-bold my-3'>Easier decision making for</h5>
                     <h1 className='fw-bold'>Customer Support</h1>
                     <p className='fs-5'>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
@@ -30,4 +30,4 @@ function Part2() {
     );
   }
   
-export default Part2
+export default Feature2

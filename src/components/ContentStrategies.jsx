@@ -1,9 +1,9 @@
 import React from 'react'
 import {Container, Card, Row, Col} from 'react-bootstrap'
 
-function Content4() {
+function ContentStrategies() {
     return (
-        <div className="content4">
+        <div className="content-strategies">
             <Container className="my-5">
                 <h1 className='fw-bolder mt-5'>Contents Strategies</h1>
                 <p className='mt-3 mb-5'>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
@@ -44,4 +44,4 @@ function Content4() {
     )
 }
 
-export default Content4
+export default ContentStrategies

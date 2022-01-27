@@ -2,10 +2,10 @@ import React from 'react';
 import './css/App.css'
 import Header from './Header'
 import Carousel from './Carousel'
-import Content1 from './Content1'
-import Content2 from './Content2'
-import Content3 from './Content3'
-import Content4 from './Content4'
+import Benefit from './Benefit'
+import Features from './Features'
+import Developer from './Developer'
+import ContentStrategies from './ContentStrategies'
 import PriceTable from './PriceTable'
 import Testimony from './Testimony'
 import JoinUs from './JoinUs'
@@ -17,10 +17,10 @@ function App() {
     <div>
       <Header />
       <Carousel />
-      <Content1 />
-      <Content2 />
-      <Content3 />
-      <Content4 />
+      <Benefit />
+      <Features />
+      <Developer />
+      <ContentStrategies />
       <PriceTable />
       <Testimony />
       <JoinUs />

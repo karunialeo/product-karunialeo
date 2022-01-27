@@ -14,11 +14,11 @@ function PriceTable() {
                                 <h4 className='fw-bold mb-4'>Free</h4>
                                 <p>Brief price description</p>
                             </Card.Text>
-                            <Row className='d-flex mb-4'>
-                                <Col className='fs-1 fw-bold text-var-green col-auto offset-3'>0</Col>
+                            <Row className='d-flex mb-4 align-items-center'>
+                                <Col className='large-font fw-bold text-var-green col-auto offset-2'>0</Col>
                                 <Col className='text-start'>
                                     <p className='text-var-green fw-bold mb-1'>$</p>
-                                    <p className='text-var-gray'>Per / month</p>
+                                    <p className='text-var-gray mb-1'>Per / month</p>
                                 </Col>
                             </Row>
                             <Card.Text className='mb-4'>
@@ -35,11 +35,11 @@ function PriceTable() {
                                 <h4 className='fw-bold mb-4'>Standard</h4>
                                 <p>Brief price description</p>
                             </Card.Text>
-                            <Row className='d-flex mb-4'>
-                                <Col className='fs-1 fw-bold col-auto offset-3'>5</Col>
+                            <Row className='d-flex mb-4 align-items-center'>
+                                <Col className='large-font fw-bold col-auto offset-2'>5</Col>
                                 <Col className='text-start'>
                                     <p className='fw-bold mb-1'>$</p>
-                                    <p className='text-var-gray'>Per / month</p>
+                                    <p className='text-var-gray mb-1'>Per / month</p>
                                 </Col>
                             </Row>
                             <Card.Text className='mb-4'>
@@ -56,11 +56,11 @@ function PriceTable() {
                                 <h4 className='fw-bold mb-4'>Premium</h4>
                                 <p>Brief price description</p>
                             </Card.Text>
-                            <Row className='d-flex mb-4'>
-                                <Col className='fs-1 fw-bold text-var-green col-auto offset-3'>10</Col>
+                            <Row className='d-flex mb-4 align-items-center'>
+                                <Col className='large-font fw-bold text-var-green col-auto offset-2'>10</Col>
                                 <Col className='text-start'>
                                     <p className='text-var-green fw-bold mb-1'>$</p>
-                                    <p className='text-var-gray'>Per / month</p>
+                                    <p className='text-var-gray mb-1'>Per / month</p>
                                 </Col>
                             </Row>
                             <Card.Text className='mb-4'>
