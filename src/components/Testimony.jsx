@@ -5,8 +5,8 @@ function Testimony() {
     return (
         <div className="testimony">
             <Container className="my-5">
-                <h2 className='text-center fw-bolder'>What Clients Say</h2>
-                <p className='text-center mt-3 mb-5 col-lg-6 col-sm-12 offset-lg-3 offset-sm-0'>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+                <h2 className='color-switch text-var-black text-center fw-bolder'>What Clients Say</h2>
+                <p className='color-switch text-var-black text-center mt-3 mb-5 col-lg-6 col-sm-12 offset-lg-3 offset-sm-0'>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
                 <Container className='d-lg-flex justify-content-between gap-5'>
                     <Card className='col mb-5 shadow'>
                         <Card.Body>

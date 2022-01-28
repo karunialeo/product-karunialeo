@@ -5,7 +5,7 @@ import Feature3 from './Features/Feature3'
 
 function Features() {
     return (
-        <div id='features'>
+        <div id='features' className='color-switch text-var-black'>
             <Feature1 />
             <Feature2 />
             <Feature3 />

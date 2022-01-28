@@ -3,13 +3,16 @@ import {Row, Col, Button} from 'react-bootstrap'
 
 function Footer() {
     return (
-        <footer className='container mt-5'>
+        <footer className='color-switch text-var-black container mt-5'>
             <Row>
                 <Col className='text-center text-lg-start mb-4' sm={12} lg={3}>
-                    <div className='fw-bold text-var-black mb-3'><img src="/img/logo.png" alt="logo" /> <img src="/img/product.png" alt="product" /></div>
-                    <a href="https://instagram.com/karunialeo" target='_blank' className='me-3 fs-2'><i class="bi bi-instagram bg-var-lightgreen px-2 rounded-circle text-var-green" /></a>
-                    <a href="https://facebook.com/leo.karunia" target='_blank' className='me-3 fs-2'><i class="bi bi-facebook bg-var-lightgreen px-2 rounded-circle text-var-green" /></a>
-                    <a href="https://twitter.com/karunialeo" target='_blank' className='me-3 fs-2'><i class="bi bi-whatsapp bg-var-lightgreen px-2 rounded-circle text-var-green" /></a>
+                    <div className='fw-bold text-var-black mb-3'>
+                        <img src="/img/logo.png" alt="logo" />
+                        <img src="/img/product-dark.png" alt="product" className='image-switch ms-2'/>
+                    </div>
+                    <a href="https://instagram.com/karunialeo" target='_blank' className='me-3 fs-2'><i className="bi bi-instagram bg-var-lightgreen px-2 rounded-circle text-var-green" /></a>
+                    <a href="https://facebook.com/leo.karunia" target='_blank' className='me-3 fs-2'><i className="bi bi-facebook bg-var-lightgreen px-2 rounded-circle text-var-green" /></a>
+                    <a href="https://twitter.com/karunialeo" target='_blank' className='me-3 fs-2'><i className="bi bi-whatsapp bg-var-lightgreen px-2 rounded-circle text-var-green" /></a>
                 </Col>
                 <Col className='text-center text-lg-start' sm={12} lg={3}>
                     <h5 className='fw-bold'>Resources</h5>

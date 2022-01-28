@@ -3,11 +3,11 @@ import {Container, Button, Row, Col} from 'react-bootstrap'
 
 function Benefit() {
     return (
-        <div className="benefit">
+        <div className="bg-down-switch benefit gradient-down-light">
             <div className="my-5">
-                <h2 className='fw-bolder text-center lh-base py-5'>Product was Built Specifically<br />for You</h2>
+                <h2 className='color-switch text-var-black fw-bolder text-center lh-base py-5'>Product was Built Specifically<br />for You</h2>
                 <Container fluid className='benefit'>
-                    <Container>
+                    <Container className='color-switch text-var-black'>
                         <Row className='d-lg-flex justify-content-between pb-5'>
                             <Col sm className='text-center text-lg-start'>
                                 <img src="/img/icon1.png" alt="" />

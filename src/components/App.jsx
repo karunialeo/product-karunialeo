@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/App.css'
+import './js/App.js'
 import Header from './Header'
 import Carousel from './Carousel'
 import Benefit from './Benefit'
@@ -14,7 +15,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
-    <div className='overflow-hidden'>
+    <div id='pageBody' className='overflow-hidden bg-white'>
       <Header />
       <Carousel />
       <Benefit />

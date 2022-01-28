@@ -5,27 +5,27 @@ function ContentStrategies() {
     return (
         <div className="content-strategies">
             <Container className="my-5">
-                <h1 className='fw-bolder mt-5'>Contents Strategies</h1>
-                <p className='mt-3 mb-5'>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                <h1 className='color-switch text-var-black fw-bolder mt-5'>Contents Strategies</h1>
+                <p className='color-switch text-var-black mt-3 mb-5'>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
                 <Container fluid className='d-lg-flex justify-content-between gap-4'>
                     <Card className='col mb-5'>
                         <Card.Img variant="top" src="/img/card-img-1.png" />
                         <Card.Body>
-                            <Card.Text><small class="text-muted">By <span className='fw-bold'>Leo Gultom</span> |  03 March 2019</small></Card.Text>
+                            <Card.Text><small className="text-muted">By <span className='fw-bold'>Leo Gultom</span> |  03 March 2019</small></Card.Text>
                             <Card.Title className='fw-bolder fs-3'>Increasing Prosperity With Positive Thinking</Card.Title>
                         </Card.Body>
                     </Card>
                     <Card className='col mb-5'>
                         <Card.Img variant="top" src="/img/card-img-2.png" />
                         <Card.Body>
-                            <Card.Text><small class="text-muted">By <span className='fw-bold'>Leo Gultom</span> |  03 March 2019</small></Card.Text>
+                            <Card.Text><small className="text-muted">By <span className='fw-bold'>Leo Gultom</span> |  03 March 2019</small></Card.Text>
                             <Card.Title className='fw-bolder fs-3 text-var-green'>Motivation Is The First Step To Success</Card.Title>
                         </Card.Body>
                     </Card>
                     <Card className='col mb-5'>
                         <Card.Img variant="top" src="/img/card-img-3.png" />
                         <Card.Body>
-                            <Card.Text><small class="text-muted">By <span className='fw-bold'>Leo Gultom</span> |  03 March 2019</small></Card.Text>
+                            <Card.Text><small className="text-muted">By <span className='fw-bold'>Leo Gultom</span> |  03 March 2019</small></Card.Text>
                             <Card.Title className='fw-bolder fs-3'>Success Steps For Your Personal Or Business</Card.Title>
                         </Card.Body>
                     </Card>

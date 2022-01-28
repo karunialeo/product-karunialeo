@@ -6,8 +6,8 @@ function Carousel() {
     <Container>
         <Row className="d-lg-flex my-5">
             <Col xs={{ order: 'last' }} lg={{ order: 'first' }} className="carousel-text d-flex flex-column justify-content-center text-center text-lg-start">
-                <h1 className='fw-bold'>Work at the speed of thought</h1>
-                <p className='fs-5'>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+                <h1 className='color-switch text-var-black fw-bold'>Work at the speed of thought</h1>
+                <p className='color-switch text-var-black fs-5'>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
                 <div className="carousel-links">
                     <a href="/" className='btn bg-var-green px-4 text-white me-3'>Get Started</a>
                     <a href="/" className='text-var-green text-decoration-none'>

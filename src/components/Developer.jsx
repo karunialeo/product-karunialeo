@@ -3,11 +3,11 @@ import {Container, Button, Row, Col, Image} from 'react-bootstrap'
 
 function Developer() {
     return (
-        <div className="content3">
+        <div>
             <div className="my-5">
-                <Container fluid className='developer'>
-                    <h2 className='fw-bolder text-center lh-base py-5'>Quick &#38; Easy Process</h2>
-                    <p className='col-lg-6 fw-bold offset-lg-3 text-center'>Do you require some help for your project: Conception workshop, prototyping, marketing strategy, landing page, Ux/UI?</p>
+                <Container fluid className='bg-up-switch developer gradient-up-light'>
+                    <h2 className='color-switch text-var-black fw-bolder text-center lh-base py-5'>Quick &#38; Easy Process</h2>
+                    <p className='color-switch text-var-black col-lg-6 fw-bold offset-lg-3 text-center'>Do you require some help for your project: Conception workshop, prototyping, marketing strategy, landing page, Ux/UI?</p>
                     <Container className='col-lg-10 offset-lg-1'>
                         <Row className=''>
                             <Col lg={6} sm={12} className='d-flex mb-5 align-items-center justify-content-center'>

@@ -5,8 +5,8 @@ function PriceTable() {
     return (
         <div className="price-table" id='pricing'>
             <Container className="my-5">
-                <h2 className='text-center fw-bolder'>Price Table</h2>
-                <p className='text-center mt-3 mb-5'>We offer competitive price</p>
+                <h2 className='color-switch text-var-black text-center fw-bolder'>Price Table</h2>
+                <p className='color-switch text-var-black text-center mt-3 mb-5'>We offer competitive price</p>
                 <Container className='d-lg-flex justify-content-between gap-5'>
                     <Card className='col mb-5 text-center shadow'>
                         <Card.Body>
