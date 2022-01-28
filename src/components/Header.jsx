@@ -14,10 +14,13 @@ class Header extends Component {
     const bgUpSwitch = document.getElementsByClassName('bg-up-switch')
     const colorSwitch = document.getElementsByClassName('color-switch')
     const imageSwitch = document.getElementsByClassName('image-switch')
+    const navbar = document.getElementsByTagName('nav')
 
     if(!body.classList.contains('bg-var-black')) {
       body.classList.toggle('bg-var-black')
       body.classList.toggle('bg-white')
+      navbar[0].classList.toggle('navbar-dark')
+      navbar[0].classList.toggle('navbar-light')
       for(let i = 0; i < imageSwitch.length; i++) {
         imageSwitch[i].src = '/img/product-light.png'
       }
@@ -36,6 +39,8 @@ class Header extends Component {
     } else {
       body.classList.toggle('bg-white')
       body.classList.toggle('bg-var-black')
+      navbar[0].classList.toggle('navbar-light')
+      navbar[0].classList.toggle('navbar-dark')
       for(let i = 0; i < imageSwitch.length; i++) {
         imageSwitch[i].src = '/img/product-dark.png'
       }
