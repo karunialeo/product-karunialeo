@@ -1,7 +1,12 @@
 import React from 'react'
 import {Container, Button, Row, Col} from 'react-bootstrap'
+import BenefitTemplate from './Benefits/BenefitTemplate'
 
 function Benefit() {
+    const imageFile = (image) => {
+        return(`/img/${image}.png`)
+    }
+
     return (
         <div className="bg-down-switch benefit gradient-down-light">
             <div className="my-5">
@@ -9,26 +14,26 @@ function Benefit() {
                 <Container fluid className='benefit'>
                     <Container className='color-switch text-var-black'>
                         <Row className='d-lg-flex justify-content-between pb-5'>
-                            <Col sm className='text-center text-lg-start'>
-                                <img src="/img/icon1.png" alt="" />
-                                <h5 className='fw-bold my-4'>First click tests</h5>
-                                <p>While most people enjoy casino gambling,</p>
-                            </Col>
-                            <Col sm className='text-center text-lg-start'>
-                                <img src="/img/icon2.png" alt="" />
-                                <h5 className='fw-bold my-4'>Design surveys</h5>
-                                <p>Sports betting, lottery and bingo playing for the fun</p>
-                            </Col>
-                            <Col sm className='text-center text-lg-start'>
-                                <img src="/img/icon3.png" alt="" />
-                                <h5 className='fw-bold my-4'>Preference tests</h5>
-                                <p>The Myspace page defines the individual.</p>
-                            </Col>
-                            <Col sm className='text-center text-lg-start'>
-                                <img src="/img/icon4.png" alt="" />
-                                <h5 className='fw-bold my-4'>Five second tests</h5>
-                                <p>Personal choices and the overall personality of the person. </p>
-                            </Col>
+                            <BenefitTemplate
+                                image={imageFile('icon1')}
+                                title="First click tests"
+                                paragraph="While most people enjoy casino gambling,"
+                            />
+                            <BenefitTemplate
+                                image={imageFile('icon2')}
+                                title="Design surveys"
+                                paragraph="Sports betting, lottery and bingo playing for the fun"
+                            />
+                            <BenefitTemplate
+                                image={imageFile('icon3')}
+                                title="Preference tests"
+                                paragraph="The Myspace page defines the individual."
+                            />
+                            <BenefitTemplate
+                                image={imageFile('icon4')}
+                                title="Five second tests"
+                                paragraph="Personal choices and the overall personality of the person."
+                            />
                         </Row>
                     </Container>
                     <Container className='text-center'>

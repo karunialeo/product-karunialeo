@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/App.css'
-import './js/App.js'
 import Header from './Header'
 import Carousel from './Carousel'
 import Benefit from './Benefit'
